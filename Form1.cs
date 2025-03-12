@@ -24,7 +24,7 @@ namespace GoMartApplication
         {
             cmbRole.SelectedIndex = 1;
             txtUsername.Text = "Coder";
-            txtPass.Text = "12345";
+            txtPass.Text = "1234_SB@";
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -134,4 +134,5 @@ namespace GoMartApplication
             txtPass.Clear();
         }
     }
+    
 }
